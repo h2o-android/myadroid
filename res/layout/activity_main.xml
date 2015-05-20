@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!--
+         <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    -->
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="http://android-wallpapers.25pp.com/20140404/1630/533e6da6023b320_900x675.jpg" />
+    <!-- android:layout_weight="1" -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="downfile"
+        android:text="下载" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="login"
+        android:text="登入" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="resiger"
+        android:text="注册" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <!-- </LinearLayout> -->
+
+
+        <!--
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+      <ImageView
+        android:id="@+id/iv_pic"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:src="@drawable/ic_launcher"
+        ></ImageView>
+    </ScrollView>
+        -->
+
+    </TextView>
+
+</LinearLayout>
